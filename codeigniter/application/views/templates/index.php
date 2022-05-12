@@ -51,15 +51,14 @@
         <a href="#" class="mx-2 js-search-open"><span class="bi-search"></span></a>
         <i class="bi bi-list mobile-nav-toggle"></i>
         <!-- ======= Search Form ======= -->
-        <div class="search-form-wrap js-search-form-wrap">
-          <form action="search-result.html" class="search-form">
-            <span class="icon bi-search"></span>
-            <input type="text" placeholder="Procurar" class="form-control">
-            <button class="btn js-search-close"><span class="bi-x"></span></button>
+        <div class="search-form-wrap">
+          <form action="search-result.html">
+            <input type="text" placeholder="Procurar">
+            <button class="btn js-search-close"></button>
           </form>
         </div><!-- End Search Form -->
         <!-- ======= Botão login ======= -->
-        <a type="button" class="btn btn-info" href="http://127.0.0.1/codeigniter/index.php/login">Login</a>
+        <a type="button" class="btn btn-dark" href="http://127.0.0.1/codeigniter/index.php/login">Login</a>
       </div>
     </div>
 

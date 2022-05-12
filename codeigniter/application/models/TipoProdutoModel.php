@@ -6,11 +6,6 @@
             return $retorno->result();
         }
 
-        public function selecionarWhere ( $clausula ){
-            $retorno = $this->db->query("SELECT * FROM `produto` WHERE nome = '%$clausula%'");
-            return $retorno->result();
-        }
-
         public function inserir ( $data ){
             $this->db->insert("tipo_produto", $data);
             return true;
@@ -29,11 +24,6 @@
         public function salvaralteracao ( $data, $id ){
             $this->db->update("tipo_produto",$data, "id = ". $id);
             return true;
-        }
-
-        public function buscarId ( $id ){
-            $retorno = $this->db->query("SELECT * FROM tipo_produto WHERE id = " . $id);
-            return $retorno->result();
         }
     }
     

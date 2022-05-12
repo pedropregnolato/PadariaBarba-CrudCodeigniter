@@ -5,7 +5,6 @@
             <td>Perecível</td>
             <td>Preço</td>
             <td>Tipo</td>
-            <td></td>
         </tr>
     </thead>
     <?php

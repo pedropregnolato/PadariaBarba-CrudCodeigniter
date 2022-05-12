@@ -12,9 +12,9 @@
                             </div>
                         </div>                        
                         <div class="text-center">
-                            <button type="submit" class="btn btn-primary">Salvar</button>
-                            <button type="reset" class="btn btn-secondary">Limpar</button>
-                            <a class="btn btn-secondary" href='http://127.0.0.1/codeigniter/index.php/tipoproduto'> Voltar/Cancelar</a>
+                            <button type="submit" class="btn btn-sucess">Salvar</button>
+                            <button type="reset" class="btn btn-warning">Limpar</button>
+                            <a class="btn btn-danger" href='http://127.0.0.1/codeigniter/index.php/tipoproduto'> Voltar/Cancelar</a>
                         </div>
                         <!--<input type="file" multiple name="arquivos">-->
                     </form>

@@ -47,7 +47,7 @@
                                         <input type="password" class="form-control form-control-user" id="exampleRepeatPassword" placeholder="Confirmação de senha">
                                     </div>
                                 </div>
-                                <button type="submit" class="btn btn-primary btn-user btn-block">
+                                <button type="submit" class="btn btn-dark btn-user btn-block">
                                     Criar
                                 </button>
                             </form>

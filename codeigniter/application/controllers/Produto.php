@@ -27,10 +27,10 @@ class Produto extends CI_Controller
                 $tabela .= "
                 <td style='cursor: pointer'>
                     <a href='/codeigniter/index.php/produto/alterar?codigo=" . $item->id . "'>
-                    ✏️
+                    EDITAR
                     </a>
                     <a href='/codeigniter/index.php/produto/excluir?codigo=" . $item->id . "'>
-                    ❌
+                    APAGAR
                     </a>
                 </td>";
             }
@@ -133,10 +133,4 @@ class Produto extends CI_Controller
         
     }
 
-
-    public function selecionarWhere ($parametro)
-    {
-        $retorno = $this->db->query("SELECT * FROM `produto` WHERE nome = '%$parametro%'");
-        return $retorno->result();
-    }
 }

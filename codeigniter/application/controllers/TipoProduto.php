@@ -27,10 +27,10 @@ class TipoProduto extends CI_Controller
                 $tabela .= "
                 <td style='cursor: pointer'>
                     <a href='/codeigniter/index.php/tipoproduto/alterar?codigo=" . $item->id . "'>
-                    ✏️
+                    EDITAR
                     </a>
                     <a href='/codeigniter/index.php/tipoproduto/excluir?codigo=" . $item->id . "'>
-                    ❌
+                    APAGAR
                     </a>
                 </td>";
             }
